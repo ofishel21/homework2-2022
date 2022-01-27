@@ -28,6 +28,8 @@ img{
     width: 350px;
     text-align: center;
     border: 10px dashed #FFFFFF;
+    display: block;
+    margin: auto;
 }
 
 div{
@@ -45,24 +47,24 @@ div{
     background: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-left: 10px;
-    border-bottom: 3px;
+    border-style: solid;
+    border-width: 0px 0px 3px 10px;
 }
 
 .blue{
     background: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    border-style: solid;
+    border-width: 0px 10px 3px 0px;
 }
 
 .yellow{
     background: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-left: 10px;
-    border-bottom: 3px;
+    border-style: solid;
+    border-width: 0px 0px 3px 10px;
 }
 
 .yellow h2{
@@ -78,8 +80,8 @@ div{
     background: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px;
-    border-bottom: 3px;
+    border-style: solid;
+    border-width: 0px 10px 3px 0px;
 }
 
 span{
